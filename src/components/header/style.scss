@@ -12,4 +12,7 @@
   @include desktop {
     margin-bottom: 40px;
   }
+  a:before {
+    display: none;
+  }
 }

@@ -78,6 +78,9 @@ article {
   p {
     color: #ffffff9e;
   }
+  a:before {
+    background: #ffffff9e;
+  }
 }
 
 :global(.pinkflood) {
@@ -91,6 +94,9 @@ article {
   }
   p {
     color: #996a77;
+  }
+  a:before {
+    background: #996a77;
   }
 }
 
@@ -115,6 +121,19 @@ article {
       opacity: 0.8;
       bottom: 13px;
       transform: translateX(10px);
+    }
+  }
+  a {
+    position: relative;
+    font-weight: bold;
+    color: inherit;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      opacity: 0.7;
+      bottom: -1px;
     }
   }
 }
