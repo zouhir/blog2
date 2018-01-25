@@ -1,0 +1,19 @@
+@import "../../style/helpers.scss";
+
+.hero {
+  width: 100%;
+  max-width: 1350px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  @include tablet {
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  @include desktop {
+    height: 600px;
+    margin-bottom: 75px;
+  }
+}

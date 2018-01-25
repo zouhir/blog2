@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "zouhir-serverless",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
+    "build":
+      "preact build && ncp src/content build/content --no-service-worker",
+    "serve": "preact build && preact serve",
+    "dev": "preact watch",
+    "lint": "eslint src"
+  },
+  "eslintIgnore": ["build/*"],
+  "devDependencies": {
+    "directory-tree": "^2.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-synacor": "^2.0.2",
+    "if-env": "^1.0.0",
+    "ncp": "^2.0.0",
+    "node-sass": "^4.7.2",
+    "obj-str": "^1.0.0",
+    "preact-cli": "^2.0.1",
+    "sass-loader": "^6.0.6",
+    "undom": "^0.3.3"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "ganalytics": "^3.0.0",
+    "preact": "^8.2.6",
+    "preact-compat": "^3.17.0",
+    "preact-markup": "^1.6.0",
+    "preact-router": "^2.5.7",
+    "three": "^0.89.0",
+    "webpack-remove-serviceworker-plugin": "^1.0.0",
+    "yaml": "^0.3.0"
+  }
+}

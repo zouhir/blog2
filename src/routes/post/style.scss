@@ -1,0 +1,18 @@
+.post {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &:global(.skyscan) {
+    background: #0a5da6;
+  }
+  &:global(.pinkflood) {
+    background: rgb(240, 223, 225);
+  }
+  article {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+  }
+}

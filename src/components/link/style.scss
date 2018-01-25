@@ -1,0 +1,33 @@
+.button {
+  height: 40px;
+  color: transparentize($color: (#f0ccc4), $amount: 0);
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 0px 0 15px;
+  &:before {
+    height: 40px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, 0.05);
+    padding-left: 15px;
+    transition: width 0.1s linear;
+    left: 0px;
+    bottom: 0;
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+}

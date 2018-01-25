@@ -1,0 +1,21 @@
+.fullHeight {
+  height: 100vh;
+  width: 100%;
+  padding: 60px 60px 80px 60px;
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+.aqua {
+  background: #aae6de;
+}
+.peach {
+  background: #fedcd0;
+}
+.ocean {
+  background: #87c2e4;
+}

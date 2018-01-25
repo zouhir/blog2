@@ -1,0 +1,52 @@
+@import "../../style/helpers.scss";
+.home {
+  width: 100%;
+  background: #131621;
+  display: flex;
+  flex-direction: column;
+  section {
+    width: 100%;
+    padding: 50px 20px 150px 20px;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    article {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1300px;
+    }
+    &:first-child {
+      padding: 120px 20px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .dash-padded {
+    padding-left: 65px;
+    position: relative;
+    &:before {
+      left: 0;
+      content: "";
+      height: 1px;
+      position: absolute;
+      top: 14px;
+      background: rgba(255, 255, 255, 0.2);
+      width: 45px;
+      @include tablet {
+        width: 85px;
+      }
+      @include desktop {
+        width: 90px;
+      }
+    }
+    @include tablet {
+      padding-left: 130px;
+    }
+  }
+  .limitWidth {
+    max-width: 800px;
+  }
+  .extraMargin {
+    margin-bottom: 80px;
+  }
+}
