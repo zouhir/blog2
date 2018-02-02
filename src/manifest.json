@@ -1,11 +1,11 @@
 {
-  "name": "zouhir-serverless",
-  "short_name": "zouhir-serverless",
+  "name": "Zouhir's Blog",
+  "short_name": "Zouhir",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#131621",
   "icons": [
     {
       "src": "/assets/icons/android-chrome-192x192.png",

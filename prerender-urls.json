@@ -1,0 +1,20 @@
+[
+  {
+    "url": "/",
+    "title": "Home | Zouhir ⚡️",
+    "descripttion":
+      "Zouhir's official forum where he projects and reinvents Himself, blogs about his Web Developer WTF moments and whacky ideas."
+  },
+  {
+    "url": "/blog/hello-world",
+    "title": "Hello, World! | Zouhir ⚡️",
+    "descripttion": "Introducing myself to the Web & JavaScript community!"
+  },
+  {
+    "url": "/blog/teaching-arabic-speaking-refugees-javascript-programming",
+    "title":
+      "How I Decided to Teach Arabic-speaking Refugees an Essential Skill: JavaScript Programming | Zouhir ⚡️",
+    "descripttion":
+      "Time To Give Back, How I Decided to Teach Arabic-speaking Refugees an Essential Skill: JavaScript Programming"
+  }
+]

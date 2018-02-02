@@ -1,8 +1,6 @@
 import { h, Component } from "preact";
 import style from "./style.scss";
 
-import Paragraph from "../paragraph";
-import Headline from "../headline";
 import LinkTag from "../link";
 
 const PostItem = ({ title, link, date }) => {

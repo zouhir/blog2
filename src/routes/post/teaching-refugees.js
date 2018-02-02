@@ -5,11 +5,10 @@ import cx from "classnames";
 import Markup from "preact-markup";
 
 import Header from "../../components/header";
-import Headline from "../../components/headline";
-import Paragraph from "../../components/paragraph";
+
 import SocialLinks from "../../components/social-links";
 import PostItem from "../../components/post-item";
-import Hr from "../../components/Hr";
+
 import Hero from "../../components/hero";
 
 import content from "../../content/teaching-arabic-speaking-refugees-javascript-programming.md";
@@ -32,19 +31,9 @@ export default class Profile extends Component {
         <Header color={"#ac7987"} />
         <Hero img={meta.hero} />
         <article>
-          <Paragraph small uppercase>
-            {meta.date}
-          </Paragraph>
-          <Headline h1 margin="0 0 75px 0">
-            {meta.title}
-          </Headline>
-          <Markup
-            markup={body}
-            allow-scripts
-            trim={false}
-            components={{ Paragraph, Headline, Hr }}
-            type="html"
-          />
+          <p className="mini-title mb-10">{meta.date}</p>
+          <h1>{meta.title}</h1>
+          <Markup markup={body} allow-scripts trim={false} type="html" />
         </article>
       </div>
     );

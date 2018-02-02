@@ -2,12 +2,8 @@ import { h, Component } from "preact";
 import style from "./style.scss";
 import cx from "classnames";
 
-import Section from "../../components/section";
-import Headline from "../../components/headline";
-import Paragraph from "../../components/paragraph";
 import SocialLinks from "../../components/social-links";
 import PostItem from "../../components/post-item";
-import Hr from "../../components/Hr";
 
 export default class Home extends Component {
   componentDidMount() {}

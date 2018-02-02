@@ -59,6 +59,7 @@
 
 <p>When I first had this idea, I didn’t think that I would get such an amazing and overwhelming response.</p>
 
+<center>
 <blockquote class="twitter-tweet" data-lang="en">
     <p lang="en" dir="ltr">I&#39;ll be teaching Syrians\Syrian refugees JavaScript remotely for free, explained mostly in Arabic. please RT
         <a href="https://t.co/jUUT2pd6nE">https://t.co/jUUT2pd6nE</a>
@@ -66,6 +67,7 @@
     <a href="https://twitter.com/_zouhir/status/734058495138357248">May 21, 2016</a>
 </blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 <p>My initial announcement was re-tweeted over 185 times in the first 24 hours. People that I admire a lot supported my initiative:
     the
