@@ -45,7 +45,7 @@
         ]
       }
     ],
-    "rewrites": [{ "source": "**", "destination": "**/index.html" }],
+    "rewrites": [{ "source": "/:page", "destination": "/:page/index.html" }],
     "public": "build"
   }
 }
