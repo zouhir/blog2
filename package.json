@@ -5,13 +5,14 @@
   "license": "MIT",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
-    "build":
-      "preact build && ncp src/content build/content --no-service-worker && ncp _redirects build/_redirects",
+    "build": "preact build && ncp src/content build/content --no-service-worker && ncp _redirects build/_redirects",
     "serve": "preact build && preact serve",
     "dev": "preact watch",
     "lint": "eslint src"
   },
-  "eslintIgnore": ["build/*"],
+  "eslintIgnore": [
+    "build/*"
+  ],
   "devDependencies": {
     "directory-tree": "^2.0.0",
     "eslint": "^4.9.0",
