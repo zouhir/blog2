@@ -18,8 +18,8 @@ export default class App extends Component {
       <div id="app">
         <Router onChange={this.handleRoute}>
           <Home path="/" />
-          <HelloWorld path="/blog/hello-world/" />
-          <TeachingRefugees path="/blog/teaching-arabic-speaking-refugees-javascript-programming/" />
+          <HelloWorld path="/blog/hello-world/index.html" />
+          <TeachingRefugees path="/blog/teaching-arabic-speaking-refugees-javascript-programming/index.html" />
         </Router>
       </div>
     );
